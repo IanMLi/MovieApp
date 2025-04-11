@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
         flexGrow: 1,
         alignItems: 'center',
         padding: 16,
-        backgroundColor: '#fff',
+        backgroundColor: '#ffd4d1',
     },
     movieTitle: {
         fontSize: 22,
@@ -47,6 +47,7 @@ const styles = StyleSheet.create({
         borderColor: '#aaa',
         borderRadius: 8,
         width: '100%',
+        backgroundColor: 'white',
     },
     reviewUser: {
         fontWeight: 'bold',

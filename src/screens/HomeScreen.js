@@ -1,8 +1,11 @@
 ﻿import React from 'react';
-import { StyleSheet, Text, View, FlatList, TouchableOpacity, Image } from 'react-native';
+import { StyleSheet, View, FlatList, Text, TouchableOpacity, Image } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { movies } from '../data/movies';
 
 const HomeScreen = ({ navigation }) => {
+    const insets = useSafeAreaInsets();
+
     const renderItem = ({ item }) => (
         <TouchableOpacity
             style={styles.movieContainer}
@@ -14,7 +17,7 @@ const HomeScreen = ({ navigation }) => {
     );
 
     return (
-        <View style={styles.container}>
+        <View style={[styles.container, { paddingTop: insets.top + 60 }]}>
             <FlatList
                 data={movies}
                 renderItem={renderItem}
@@ -32,7 +35,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#ffd4d1',
-        padding: 16,
+        paddingHorizontal: 16,
     },
     listContainer: {
         paddingBottom: 16,
@@ -45,10 +48,10 @@ const styles = StyleSheet.create({
         width: '48%',
         alignItems: 'center',
         borderWidth: 1,
-        borderColor: '#ccc',
+        borderColor: '#e0a9a4',
         padding: 10,
         borderRadius: 8,
-        backgroundColor: '#faf8f7',
+        backgroundColor: '#fff1ef',
     },
     movieImage: {
         width: '100%',
@@ -61,6 +64,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginTop: 8,
         textAlign: 'center',
+        color: '#4b2c2c',
     },
 });
 
