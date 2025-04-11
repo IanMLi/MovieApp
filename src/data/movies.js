@@ -2,8 +2,8 @@
 export const movies = [
     {
         id: '1',
-        title: 'Spirited Away',
-        image: 'https://example.com/images/spirited_away.jpg',
+        title: 'El viaje de Chihiro',
+        image: 'https://elanime.mx/wp-content/uploads/2024/09/El-Viaje-de-Chihiroarticulo.jpg',
         category: 'Anime, Fantasía',
         year: 2001,
         rating: 'PG',
@@ -17,7 +17,7 @@ export const movies = [
     {
         id: '2',
         title: 'Your Name',
-        image: 'https://example.com/images/your_name.jpg',
+        image: 'https://images.justwatch.com/poster/27428092/s718/your-name.jpg',
         category: 'Anime, Romance, Fantasía',
         year: 2016,
         rating: 'PG-13',
@@ -29,34 +29,34 @@ export const movies = [
     },
     {
         id: '3',
-        title: 'Akira',
-        image: 'https://example.com/images/akira.jpg',
-        category: 'Anime, Ciencia Ficción, Acción',
-        year: 1988,
-        rating: 'R',
-        synopsis: 'En un futuro distópico, un joven con poderes extraordinarios desata el caos en la ciudad de Neo-Tokio.',
-        classification: 'Para adultos',
+        title: 'Quiero comerme tu páncreas',
+        image: 'https://play-lh.googleusercontent.com/proxy/Vo2547UQ4Oma__g9ujYMLA1FpPgLy8pClQtL3U2uXb7KGd5jXzFlJ2K_BPrucrm1E-RvfmYTPoVW84MV_HCgpl62mdLK6ehmOAPg0twito4Bg1fytThCh9YcP8zQMAPeLfnVD-QH8Iwg_01vHZ53jNmHNzo9sEsP6MI9Hg',
+        category: 'Anime, Drama, Romance',
+        year: 2018,
+        rating: 'PG-13',
+        synopsis: 'Un joven reservado entabla una inesperada amistad con una compañera de clase que guarda un secreto sobre su salud.',
+        classification: 'Apta para adolescentes',
         reviews: [
-            { username: 'SciFiFan', review: 'Revolucionario y lleno de acción.' }
+            { username: 'Tearjerker', review: 'Triste pero bellísima historia de vida.' }
         ]
     },
     {
         id: '4',
-        title: 'Ghost in the Shell',
-        image: 'https://example.com/images/ghost_in_the_shell.jpg',
-        category: 'Anime, Ciencia Ficción, Cyberpunk',
-        year: 1995,
-        rating: 'R',
-        synopsis: 'En un mundo futurista, una cyborg investiga crímenes cibernéticos mientras cuestiona su propia identidad.',
-        classification: 'Para adultos',
+        title: '5 centímetros por segundo',
+        image: 'https://m.media-amazon.com/images/S/pv-target-images/e198ebb129458b00b4729d8140aaf3873b92cec322d59e9b589a080fbc8f76cd.jpg',
+        category: 'Anime, Drama, Romance',
+        year: 2007,
+        rating: 'PG',
+        synopsis: 'Tres segmentos que retratan la vida de un joven y su relación con una amiga de la infancia mientras el tiempo y la distancia los separan.',
+        classification: 'Apta para todo público',
         reviews: [
-            { username: 'Techie', review: 'Una visión profunda del futuro digital.' }
+            { username: 'PoeticSoul', review: 'Melancólica y visualmente hermosa.' }
         ]
     },
     {
         id: '5',
-        title: 'Princess Mononoke',
-        image: 'https://example.com/images/princess_mononoke.jpg',
+        title: 'La princesa Mononoke',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-uaJrNZQ1mgrb1yKmYAMbjY423XW1qqbMRQ&s',
         category: 'Anime, Aventura, Fantasía',
         year: 1997,
         rating: 'PG-13',
@@ -68,8 +68,8 @@ export const movies = [
     },
     {
         id: '6',
-        title: 'My Neighbor Totoro',
-        image: 'https://example.com/images/my_neighbor_totoro.jpg',
+        title: 'Mi vecino Totoro',
+        image: 'https://es.web.img3.acsta.net/medias/nmedia/18/70/26/45/20236853.jpg',
         category: 'Anime, Familiar, Aventura',
         year: 1988,
         rating: 'G',
@@ -81,8 +81,8 @@ export const movies = [
     },
     {
         id: '7',
-        title: "Howl's Moving Castle",
-        image: 'https://example.com/images/howls_moving_castle.jpg',
+        title: 'El castillo ambulante',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7h8i___SP8j9fdGy8ijYhcWju3-hoYFU34Q&s',
         category: 'Anime, Fantasía, Romance',
         year: 2004,
         rating: 'PG',
@@ -94,21 +94,21 @@ export const movies = [
     },
     {
         id: '8',
-        title: 'The Girl Who Leapt Through Time',
-        image: 'https://example.com/images/the_girl_who_leapt_through_time.jpg',
+        title: 'Hello World',
+        image: 'https://m.media-amazon.com/images/S/pv-target-images/6c291f8489d7ea4f8ac512a95323cc01fa8c049f7604a2b0a6c76576a9faf8c4.jpg',
         category: 'Anime, Ciencia Ficción, Romance',
-        year: 2006,
-        rating: 'PG',
-        synopsis: 'Una estudiante descubre que tiene la capacidad de viajar en el tiempo, cambiando el curso de su vida.',
-        classification: 'Familiar',
+        year: 2019,
+        rating: 'PG-13',
+        synopsis: 'Un joven del futuro intenta cambiar el pasado para salvar a la chica que ama, alterando la realidad con tecnología avanzada.',
+        classification: 'Apta para adolescentes',
         reviews: [
-            { username: 'TimeTraveler', review: 'Una historia encantadora sobre las segundas oportunidades.' }
+            { username: 'DigitalRomance', review: 'Una historia emocional con un giro tecnológico.' }
         ]
     },
     {
         id: '9',
-        title: 'A Silent Voice',
-        image: 'https://example.com/images/a_silent_voice.jpg',
+        title: 'Una voz silenciosa',
+        image: 'https://m.media-amazon.com/images/S/pv-target-images/6d86892597ad4992fafaf8e4f40ade38186a4508252de505ce20821a8ea09ffd.jpg',
         category: 'Anime, Drama',
         year: 2016,
         rating: 'PG-13',
@@ -120,8 +120,8 @@ export const movies = [
     },
     {
         id: '10',
-        title: 'Weathering with You',
-        image: 'https://example.com/images/weathering_with_you.jpg',
+        title: 'El tiempo contigo',
+        image: 'https://m.media-amazon.com/images/S/pv-target-images/f847c3069d8a32aebd4fdedab9cc9bd7196803bb2164ae88813e84bbfb509056.jpg',
         category: 'Anime, Fantasía, Romance',
         year: 2019,
         rating: 'PG-13',
